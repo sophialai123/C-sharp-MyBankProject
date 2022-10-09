@@ -91,7 +91,8 @@ namespace MyBankProject
             var report = new StringBuilder();
             decimal balance = 0;
 
-            // \t is the tap to make a space, table header 
+            // One new character is \t. That inserts a tab to format the output.
+
             report.AppendLine("Date\t\tAmount\t\tBalance\t\tNote\n");
 
             foreach (var item in allTransactions)
